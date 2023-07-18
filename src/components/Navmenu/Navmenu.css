@@ -1,0 +1,12 @@
+.navmenu .adm-grid-item{
+    text-align: center;
+}
+.navmenu .adm-grid-item .adm-image{
+    display: block;
+    margin: 0 auto;
+}
+.navmenu .adm-grid-item h2{
+    margin-top: 5px;
+    font-size: 13px;
+    color: black;
+}

@@ -1,0 +1,13 @@
+.adm-tab-bar-wrap{
+    background-color: #fff;
+}
+.adm-tab-bar-item{
+    color:#888;
+    
+}
+.adm-tab-bar-item-active {
+    color: #21b97a;
+}
+.adm-tab-bar-item-icon{
+    font-size:20px;
+}

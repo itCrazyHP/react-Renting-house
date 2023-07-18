@@ -1,0 +1,40 @@
+.user {
+    margin: 40px 20px 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 10px;
+    border-bottom:1px solid rgb(206, 206, 206) ;
+}
+
+.input {
+    flex: auto;
+}
+
+.eye {
+    flex: none;
+    margin-left: 8px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.register{
+    font-size: 14px;
+    text-align: center;
+}
+
+.form :global(.adm-list-body),:global(.adm-list-item-content),:global(.adm-list-item){
+    border: none;
+    padding: 0;
+}
+.form :global(.adm-form-item-feedback-error){
+    margin: 0 20px;
+
+}
+.form :global(.adm-list-item-content-main){
+    height: 100px;
+    padding: 0;
+}

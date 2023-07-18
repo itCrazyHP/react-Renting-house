@@ -1,0 +1,37 @@
+.index-search-wrapper{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    height: 34px;
+    .search{
+        display: flex;
+        
+        margin: 0 10px;
+        padding: 5px 5px 5px 8px;
+        font-size: 14px;
+        border-radius: 3px;
+        background-color: #fff;
+        flex: 1;
+        line-height: 25px;
+        .location{
+            span{
+                margin-right: 3px;
+            }
+        }
+        .form{
+            border-left:1px solid #e5e5e5 ;
+            margin-left: 12px;
+            padding-left: 12px;
+            span{
+                padding-left: 4px;
+                font-size: 13px;
+                color: #9c9fa1;
+            }
+        }
+    }
+    .map{
+        margin-top: 4px;
+    }
+}

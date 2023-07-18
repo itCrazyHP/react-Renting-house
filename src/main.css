@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+    font-family: 'Microsoft YaHei';
+    color:#333;
+    background-color: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* 百度地图需要设置 */
+html,body,#root,.App{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

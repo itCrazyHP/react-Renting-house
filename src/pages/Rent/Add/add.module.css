@@ -1,0 +1,40 @@
+.root{
+    padding-bottom: 45px;
+    background-color: rgb(245,245,249);
+}
+.price{
+    display: flex;
+}
+.price :global(div){
+    white-space: nowrap;
+}
+.square{
+    display: flex;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    z-index: 1;
+    color: #fff;
+    font-size: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+ .confirm {
+        flex-grow: 1;
+        height: 45px;
+        line-height: 45px;
+        background-color: #21b97a;
+    }
+.cancel {
+        flex-grow: 1;
+        color: #21b97a;
+        background-color: #fff;
+        height: 100%;
+        line-height: 45px;
+    }

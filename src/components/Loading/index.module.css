@@ -1,0 +1,19 @@
+.Loading{
+    width: 150px;
+    height: 150px;
+    background-color:rgba(0,0,0,.7) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform:translate(-50%,50%);
+    z-index: 999;
+}
+.content{
+    margin-top: 16px;
+    color: #fff;
+}

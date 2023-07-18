@@ -1,0 +1,8 @@
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+.bottom{
+    margin-bottom: 60px;
+  }

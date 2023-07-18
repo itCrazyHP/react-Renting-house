@@ -1,0 +1,12 @@
+
+.picker :global(.adm-mask){
+    display: none;
+} 
+.picker .cascadePicker :global(.adm-picker-header){
+    display: none;
+}
+.picker :global(.adm-popup),:global(.adm-popup-body){
+    position: static;
+    /* 取消antd自带的fixed样式，调位置可以通过margin吧？ */
+}
+
